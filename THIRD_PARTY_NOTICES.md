@@ -2,7 +2,7 @@
 
 ClaudeOffice 설치 파일(`ClaudeOffice-Setup-<버전>.exe`)과 휴대용 실행 파일(`ClaudeOffice-Portable-<버전>.exe`)에는 아래의 제3자 구성 요소가 들어 있습니다. 각 구성 요소는 그 저작권자의 것이며, 아래 적은 라이선스에 따라 함께 배포합니다. ClaudeOffice 자체의 사용 조건은 [LICENSE](LICENSE) 파일에 있고, 그 조건은 이 구성 요소들의 라이선스가 주는 권리를 제한하지 않습니다.
 
-기준: v1.0.0 설치 파일(2026-10-01 빌드). 구성 요소가 바뀌면 이 파일도 함께 고칩니다. 이 목록에서 빠진 것이나 틀린 것을 발견하면 [Issues](https://github.com/BlackBuddle/ClaudeOffice-releases/issues)로 알려 주세요.
+기준: v1.0.0(2026-10-01 빌드)과 v1.0.1(2026-10-02 빌드) 설치 파일 — 두 버전의 구성 요소는 같아요. 구성 요소가 바뀌면 이 파일도 함께 고칩니다. 이 목록에서 빠진 것이나 틀린 것을 발견하면 [Issues](https://github.com/BlackBuddle/ClaudeOffice-releases/issues)로 알려 주세요.
 
 이 파일은 설치 폴더에 들어 있는 고지 파일과 각 프로젝트의 공식 배포 조건을 읽어 정리했습니다.
 

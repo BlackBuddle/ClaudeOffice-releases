@@ -93,8 +93,10 @@ ClaudeOffice(앱 이름 "Claude 사무실")는 이 PC에서 도는 Claude Code �
 받은 파일이 릴리스에 올라온 것과 같은지 확인해요. 아래 값이 같은 릴리스의 `.sha256` 파일에 적힌 값과 같아야 해요(대소문자는 상관없어요).
 
 ```powershell
-(Get-FileHash .\ClaudeOffice-Setup-1.0.0.exe -Algorithm SHA256).Hash
+(Get-FileHash .\ClaudeOffice-Setup-*.exe -Algorithm SHA256).Hash
 ```
+
+`*` 자리에는 받은 버전이 들어가요. 같은 폴더에 설치 파일이 하나만 있게 해 주세요. 휴대용은 `Setup`을 `Portable`로 바꿔요.
 
 값이 다르거나 다른 곳에서 받은 파일은 실행하지 마세요.
 

@@ -33,7 +33,7 @@
 공식 배포처는 이 저장소의 **Releases뿐**이에요. 받은 파일의 SHA-256이 같은 릴리스의 `.sha256` 파일에 적힌 값과 같은지 확인하세요([설치](README.md#설치)).
 
 ```powershell
-(Get-FileHash .\ClaudeOffice-Setup-1.0.0.exe -Algorithm SHA256).Hash
+(Get-FileHash .\ClaudeOffice-Setup-*.exe -Algorithm SHA256).Hash
 ```
 
 해시가 다르거나 다른 곳에서 받은 파일은 실행하지 마세요. 변조된 배포물을 발견하면 위의 비공개 신고로 알려 주세요. 설치 파일에는 코드 서명이 없어서 처음 실행할 때 Windows SmartScreen 경고가 떠요. 해시를 확인한 파일만 **추가 정보 → 실행**을 누르세요.

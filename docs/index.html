@@ -615,7 +615,7 @@ html.motion .reveal.is-in { opacity: 1; translate: none; }
     <ol class="steps">
       <li class="card reveal">
         <h3>받기</h3>
-        <p>GitHub Releases에서 설치 파일 <code data-file>ClaudeOffice-Setup-1.0.0.exe</code>(약 115MB)를 받아요. 공식 배포처는 이 저장소의 Releases뿐이에요.</p>
+        <p>GitHub Releases에서 설치 파일 <code data-file>ClaudeOffice-Setup-1.0.1.exe</code>(약 115MB)를 받아요. 공식 배포처는 이 저장소의 Releases뿐이에요.</p>
         <p class="muted">설치 없이 쓰려면 휴대용 <code>ClaudeOffice-Portable-&lt;버전&gt;.exe</code>(약 115MB)도 있어요. 휴대용은 자동 업데이트 대신 새 버전 알림만 줘요. 파일마다 해시가 적힌 <code>.sha256</code>이 함께 올라와요.</p>
         <p style="margin-top:auto"><a class="btn btn-primary" data-dl href="https://github.com/BlackBuddle/ClaudeOffice-releases/releases/latest"><svg class="ico-dl" viewBox="0 0 10 10" aria-hidden="true" shape-rendering="crispEdges"><path fill="currentColor" d="M4 0h2v5h2v1H7v1H6v1H4V7H3V6H2V5h2zM0 8h1v1h8V8h1v2H0z"/></svg><span class="btn-text"><span>설치 파일 받기</span><span class="btn-meta" data-dl-meta>Windows 10·11 64비트</span></span></a></p>
         <p class="muted" style="margin:0"><a href="https://github.com/BlackBuddle/ClaudeOffice-releases/releases">모든 릴리스 보기</a></p>
@@ -625,7 +625,7 @@ html.motion .reveal.is-in { opacity: 1; translate: none; }
         <p>받은 파일이 릴리스에 올린 파일과 같은지 확인해요. PowerShell에서:</p>
         <div class="code wrap">
           <div class="code-bar"><span>PowerShell</span><button type="button" class="copy" data-copy="cmd-hash">복사</button></div>
-          <pre id="cmd-hash" tabindex="0">(Get-FileHash "$env:USERPROFILE\Downloads\<span data-file>ClaudeOffice-Setup-1.0.0.exe</span>" -Algorithm SHA256).Hash</pre>
+          <pre id="cmd-hash" tabindex="0">(Get-FileHash "$env:USERPROFILE\Downloads\<span data-file>ClaudeOffice-Setup-1.0.1.exe</span>" -Algorithm SHA256).Hash</pre>
         </div>
         <p class="muted">나온 값이 같은 릴리스의 <code>.sha256</code> 파일에 적힌 값과 같으면 돼요(대소문자는 상관없어요). 값이 다르거나 다른 곳에서 받은 파일은 실행하지 마세요.</p>
         <p class="hash-line" id="sha-row" hidden><span>GitHub가 알려 준 이 파일의 SHA-256:</span> <code id="sha-val"></code> <button type="button" class="copy" data-copy="sha-val">복사</button></p>
